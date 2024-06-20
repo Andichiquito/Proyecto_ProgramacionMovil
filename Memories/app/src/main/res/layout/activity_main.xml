@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bgimage"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/add_entry_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar nueva entrada"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/font_family"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/recycler_background"
+        android:padding="8dp" />
+
+    <Switch
+        android:id="@+id/theme_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar tema"
+        android:layout_gravity="center"
+        android:thumb="@drawable/switch_selector"
+        android:track="@drawable/switch_selector"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

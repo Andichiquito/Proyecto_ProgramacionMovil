@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bgimage">
+
+    <EditText
+        android:id="@+id/entry_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu entrada aquí"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minLines="5"
+        android:maxLines="10"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/font_family"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Guardar"
+        android:background="@drawable/button_background"
+        android:textColor="@color/textColor"
+        android:padding="12dp"
+        android:fontFamily="@font/font_family"/>
+</LinearLayout>

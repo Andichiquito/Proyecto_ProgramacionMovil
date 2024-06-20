@@ -1,0 +1,8 @@
+<resources>
+    <color name="colorLight">#FB9FBC</color>
+    <color name="colorPrimary">#D770BE</color>
+    <color name="colorPrimaryDark">#9F306D</color>
+    <color name="colorAccent">#B9EDEF</color>
+    <color name="textColor">#000000</color> <!-- Letra oscura en tema claro -->
+    <color name="hintColor">#808080</color> <!-- Gris para los hints -->
+</resources>

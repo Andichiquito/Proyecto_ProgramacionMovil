@@ -1,0 +1,4 @@
+<!-- res/drawable/bgimage_light.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bgimage_light1" />
+</layer-list>
